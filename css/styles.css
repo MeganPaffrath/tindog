@@ -18,6 +18,14 @@ h1 {
   line-height: 1.5;
   font-weight: 900;
 }
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+p {
+  color: #8f8f8f;
+}
 /* Navigation Bar */
 .navbar {
   padding: 0 0 4.5rem 0;
@@ -52,24 +60,16 @@ h1 {
 
 /* Features */
 #features {
-  padding: 10% 0;
+  padding: 7% 15%; # same as fluid container on sides
 }
 .icon-box {
   text-align: center;
-}
-.icon-box p {
-  color: #8f8f8f;
+  padding: 5%;
 }
 .icon {
-  font-size: 2rem;
   color: #ef8172;
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
 }
 .icon:hover {
   color: #ff4c68;
-}
-h3 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1rem;
-  font-weight: 900;
 }
