@@ -49,3 +49,27 @@ h1 {
   width: 60%;
   transform:rotate(25deg);
 }
+
+/* Features */
+#features {
+  padding: 10% 0;
+}
+.icon-box {
+  text-align: center;
+}
+.icon-box p {
+  color: #8f8f8f;
+}
+.icon {
+  font-size: 2rem;
+  color: #ef8172;
+  margin-bottom: 10px;
+}
+.icon:hover {
+  color: #ff4c68;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: 900;
+}
