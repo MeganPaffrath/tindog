@@ -2,4 +2,4 @@
 
 Web Development Course by [Angela Yu](https://www.appbrewery.co/)
 
-[tindog](https://meganpaffrath.github.io/tindog/.)
+[WEBSITE HERE](https://meganpaffrath.github.io/tindog/.)
