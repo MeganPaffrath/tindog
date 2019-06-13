@@ -9,7 +9,8 @@ body {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
+
 }
 
 h1 {
@@ -17,6 +18,12 @@ h1 {
   font-size: 3rem;
   line-height: 1.5;
   font-weight: 900;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
 }
 h3 {
   font-family: "Montserrat", sans-serif;
@@ -55,13 +62,18 @@ p {
 /* Image */
 .title-image {
   width: 60%;
-  transform:rotate(25deg);
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
 }
 
 /* Features */
 #features {
-  padding: 7% 15%; # same as fluid container on sides
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
 }
+
 .icon-box {
   text-align: center;
   padding: 5%;
@@ -72,4 +84,41 @@ p {
 }
 .icon:hover {
   color: #ff4c68;
+}
+
+/* Testimonials */
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testiomonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Press */
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+/* Pricing */
+#pricing {
+  margin: 7% 15%;
+  text-align: center;
+}
+.pricing-column {
+  padding: 3% 2%;
 }
